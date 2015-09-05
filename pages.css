@@ -1,0 +1,326 @@
+
+
+#site2 {
+    margin-left: 20px;
+    position: relative;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-image: url(image2/screenshotM.png);
+    background-size: 100%;
+    background-position: top right;
+    z-index: 1;
+}
+
+#site3 {
+margin-left: 20px;
+    position: relative;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-image: url(image2/screenshotD.png);
+    background-size: 200%;
+    background-position: center;
+    z-index: 1;
+}
+
+#site1 {
+  position: relative;
+    z-index: 1;}
+
+.site1first{
+    background-color: rgb(0, 0, 0);
+    margin-left: 0px;
+    top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.site1second {
+    background-image: url(image2/painting.png);
+    background-size: cover;
+    right: 0px;
+    top: 200;
+    width: 50%;
+    height: 350px;
+    border-radius: 200px;
+}
+
+.site1left {
+    background-image: url(image2/572b6035db90619af5f2efc358ad0aff.jpg);
+    background-size: cover;
+    left: 0px;
+    top: 200;
+    width: 50%;
+    height: 350px;
+    border-radius: 200px;
+    position: absolute;
+}
+
+.panel {
+    z-index: 1;
+    position: absolute;
+    height: 900px;
+    width: 100%;
+    background-color: rgba(93, 255, 106, 0.46);
+
+}
+
+.sitepanel {
+    z-index: -1;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    height: 230px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.sweg {
+-webkit-animation: swag 4s forwards;
+-moz-animation: swag 4s forwards;
+-o-animation: swag 4s forwards;
+-ms-animation: swag 4s forwards;
+}
+
+.circleUp {   
+-webkit-animation: brow 4s forwards;
+-moz-animation: brow 4s forwards;
+-o-animation: brow 4s forwards;
+-ms-animation: brow 4s forwards;
+}
+
+@-webkit-keyframes brow {
+    0%{-webkit-transform: translateY(inherit); }
+    100%{-webkit-transform: translateY(-240px);}
+}
+@-moz-keyframes brow {
+    0%{-moz-transform: translateY(inherit); }
+    100%{-moz-transform: translateY(-240px);}
+}
+@-o-keyframes brow {
+    0%{-o-transform: translateY(inherit); }
+    100%{-o-transform: translateY(-240px);}
+}
+@-ms-keyframes brow {
+    0%{-ms-transform: translateY(inherit); }
+    100%{-ms-transform: translateY(-240px);}
+}
+
+
+
+@-webkit-keyframes swag {
+    0%{-webkit-transform: translateY(00px) translateX(00px), 
+        margin-left: 40%;}
+    100%{-webkit-transform: translateY(-235px); margin-left: 40%}
+}
+@-moz-keyframes swag {
+    0%{-moz-transform: translateY(00px) translateX(00px), 
+        margin-left: 40%;}
+    100%{-moz-transform: translateY(-235px); margin-left: 40%}
+}
+@-o-keyframes swag {
+    0%{-o-transform: translateY(00px) translateX(00px), 
+        margin-left: 40%;}
+    100%{-o-transform: translateY(-235px); margin-left: 40%}
+}
+@-ms-keyframes swag {
+    0%{-ms-transform: translateY(00px) translateX(00px), 
+        margin-left: 40%;}
+    100%{-ms-transform: translateY(-235px); margin-left: 40%}
+}
+
+
+#left{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 120px;
+    top: -20px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+    z-index: 33;
+}
+
+#samleft{
+    margin-top: 20px;
+    position: absolute;
+    padding-left: 350px;
+    color: black;
+    
+}
+
+#samp {
+    top:-90px;
+    position: relative;
+    display: block;
+float: right;
+width: 60%;
+    margin-right: 10%;
+}
+
+ #DRMcinema {
+     
+     position: absolute;
+     max-width: 70%;
+     padding-left: 350px;
+    color: black;
+}
+
+#plef{
+    width: 40%;
+    height: 100%;
+    padding-left: 50px;
+    padding-top: 120px;
+    top: -20px;
+    position: relative;
+    float: left;
+    background-color: transparent;
+    z-index: 33;
+}
+
+#right{
+    clear: left;
+    align-content: center;
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    float: right;
+    top: -120%;
+    padding-top: 160px;
+    padding-left: 200px;
+    padding-bottom: 300px;
+    margin-left: -20px;
+    right: 15px;
+    position: relative;
+    z-index: 100;
+}
+
+#yealeft {
+  position: relative;
+    bottom: 30px;
+    color: black;
+}
+
+#swagright {
+    position: relative;
+    bottom: 40px;
+    color: black;
+}
+
+#swagdescription{
+position: absolute;
+    z-index: 20;
+    width: 400px;
+    height: 150px;
+    top: 50%;
+    margin-top: 50px;
+    margin-left: 10%;
+    opacity: 0;
+}
+
+#yeadescription{
+    font-size: 1em;
+    clear: left;
+position: absolute;
+    z-index: 20;
+    width: 400px;
+    height: 150px;
+    left: 75%;
+    margin-left: -200px;
+    top: 50%;
+    margin-top: 50px;
+    opacity: 0;
+}
+
+.top {
+    color: white;
+}
+
+#glob {
+    color: rgb(0, 255, 20);
+    float: left;
+    font-size: 3em;
+    margin-left: 10%;
+    margin-right: 20px;
+}
+
+.firstpanel {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    border-radius: 200px;
+}
+
+i {
+    display: block;
+    position: absolute;
+    color: black;
+    left: 50%;
+    margin-left: -20px;
+}
+
+
+/*For IPhones*/
+
+@media only screen and (max-device-width: 480px) {
+
+    .panel {
+    z-index: 1;
+    position: absolute;
+    height: 1000px;
+    width: 100%;
+    background-color: rgba(93, 255, 106, 0.46);
+
+}
+    
+    .sitepanel {
+    z-index: -1;
+    border-radius: 35px;
+    margin-top: 10px;
+    margin-bottom: 33px;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+    
+    #swagdescription{
+position: absolute;
+    z-index: 20;
+    width: 400px;
+    height: 150px;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 10%;
+    opacity: 0;
+    font-size: 2em;
+            top: 30%;
+    margin-top: 50px;
+    opacity: 0;
+}
+
+#yeadescription{
+    font-size: 2em;
+    clear: left;
+position: absolute;
+    z-index: 20;
+    width: 400px;
+    height: 150px;
+    left: 75%;
+    margin-left: -200px;
+    top: 250px;
+    margin-top: 50px;
+    opacity: 0;
+}
+    
+
+}
